@@ -1,0 +1,116 @@
+header {
+	background-color: #ffffff;
+}
+
+h1 {
+	width: 250px;
+	height: 50px;
+	text-align: center;
+	font-weight: bold;
+	margin: 0px 400px 0px 175px;
+	padding-top: 10px;
+	background-color: #4aaaa5;
+	color: white;
+	float: left;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	font-size: 30px;
+}
+
+.textLinks {
+	text-decoration: none;
+	font-family: 'Arial', "Helvetica Neue", Helvetica, sans-serif;
+	color: #777777;
+	font-size: 18px;
+}
+
+.textLinks:hover {
+	color: #4aaaa5;
+}
+
+#headerLinks {
+	padding: 15px;
+}
+
+
+#BackgroundPic{
+	width: 100%;
+	height: 500px;
+	border-top: 3px solid #cccccc;
+	position: static;
+}
+
+#ProfilePic {
+	height: 220px;
+	width: 178px;
+	padding: 20px;
+	float: left;
+}
+
+#About {
+	position: absolute;
+	top: 100px;
+	left: 175px;
+	width: 550px;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+}
+
+h2 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 15px;
+	border-bottom: 2px solid #dddddd;
+	margin: 0px 20px 0px 20px;
+}
+
+h3 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	font-size: 18px;
+	font-weight: bold;
+
+}
+
+p {
+	color: #777777;
+	font-family: 'Arial', "Helvetica Neue", Helvetica, sans-serif;
+	padding-top: 20px;
+	margin-right: 20px;
+	text-align: justify;
+}
+
+#Connect {
+	position: absolute;
+	top: 100px;
+	left: 800px;
+	width: 160px;
+	height: 120px;
+	padding: 20px;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+
+}
+
+
+#logos {
+	float: left;
+	height: 50px;
+	width: 50px;
+	margin-top: 20px;
+	padding-top: 20px;
+	border-top: 1px solid #dddddd;
+}
+
+#Footer {
+	width: 100%;
+	background-color: #666666;
+	color: #ffffff;
+	padding: 20px;
+	text-align: center;
+	border-top: 5px solid #4aaaa5;
+	position: absolute;
+	top:510px;
+}
+
