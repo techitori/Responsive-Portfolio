@@ -1,5 +1,8 @@
 header {
 	background-color: #ffffff;
+	border-bottom: 3px solid #cccccc;
+	width: 100%;
+	position: fixed;
 }
 
 h1 {
@@ -7,13 +10,14 @@ h1 {
 	height: 50px;
 	text-align: center;
 	font-weight: bold;
-	margin: 0px 400px 0px 175px;
 	padding-top: 10px;
 	background-color: #4aaaa5;
 	color: white;
 	float: left;
 	font-family: 'Georgia', Times, "Times New Roman", serif;
 	font-size: 30px;
+	position: relative;
+	left: 175px;
 }
 
 .textLinks {
@@ -29,13 +33,16 @@ h1 {
 
 #headerLinks {
 	padding: 15px;
+	float: right;
+	position: relative;
+	right: 175px;
 }
 
 
 #BackgroundPic{
+	float: clear;
 	width: 100%;
-	height: 500px;
-	border-top: 3px solid #cccccc;
+	height: auto;
 	position: static;
 }
 
@@ -112,5 +119,24 @@ p {
 	border-top: 5px solid #4aaaa5;
 	position: absolute;
 	top:510px;
+}
+
+.container {
+	width: 100%;
+}
+
+@media only screen and (max-width: 980px) {
+    /* For desktop: */
+    .container {width: 100%;}    
+}
+
+@media only screen and (max-width: 768px) {
+    /* For tablet: */
+    .container {width: 100%;}
+}
+
+@media only screen and (max-width: 640px) {
+    /* For cell phone: */
+    .container {width: 100%;}
 }
 

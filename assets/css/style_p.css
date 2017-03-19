@@ -131,3 +131,22 @@ h3 {
 	position: absolute;
 	top:830px;
 }
+
+.container {
+	width: 100%;
+}
+
+@media only screen and (max-width: 980px) {
+    /* For desktop: */
+    .container {width: 100%;}    
+}
+
+@media only screen and (max-width: 768px) {
+    /* For tablet: */
+    .container {width: 100%;}
+}
+
+@media only screen and (max-width: 640px) {
+    /* For cell phone: */
+    .container {width: 100%;}
+}
